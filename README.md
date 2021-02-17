@@ -1,1 +1,1 @@
-# game-blog
+# Kodluyoruz-Bitirme-Projesi
