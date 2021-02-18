@@ -1,6 +1,6 @@
 import React from 'react';
-import DefaultLayout from './components/layout/DefaultLayout';
-import Home from './containers/Home';
+import DefaultLayout from './components/themeLayout/DefaultLayout';
+import Home from './containers/Home/HomeContainer';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
 
