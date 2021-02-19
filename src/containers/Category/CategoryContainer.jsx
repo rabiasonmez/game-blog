@@ -1,11 +1,13 @@
 import React from 'react';
 import Breadcrumb from './../../components/themeLayout/Breadcrumb'
+import CategoryList from './CategoryList'
 const CategoryContainer = (props) => {
 
     return (
         <>
             <Breadcrumb />
-            Kategori sayfasının yapısı oluşturulacak
+            <CategoryList/>
+      
         </>
     )
 }
