@@ -11,7 +11,7 @@ function App() {
       <DefaultLayout>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/kategori" component={Category} />
+          <Route exact path="/cat-page" component={Category} />
           <Route exact path="/blog" component = {Blog} />
         </Switch>
       </DefaultLayout>

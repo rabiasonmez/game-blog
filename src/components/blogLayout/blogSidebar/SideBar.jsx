@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const SideBar = () => {
   let publicUrl = process.env.PUBLIC_URL + "/";
   return (
-    <div className="col-lg-3 pd-top-50 go-top">
       <div className="category-sitebar">
         <div className="widget widget-category">
           <h6 className="widget-title">Category</h6>
@@ -540,7 +539,6 @@ const SideBar = () => {
           </form>
         </div>
       </div>
-    </div>
   );
 };
 

@@ -6,8 +6,8 @@ const CategoryContainer = (props) => {
     return (
         <>
             <Breadcrumb />
-            <CategoryList/>
-      
+            <CategoryList />
+
         </>
     )
 }
