@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
-import Sidebar from '../../components/layout/SideBar';
+import Sidebar from '../../components/blogLayout/blogSidebar/SideBar';
 import CategoryCard from './CategoryCard';
 import CategoryBodyCard from './CategoryBodyCard';
 

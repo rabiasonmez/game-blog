@@ -2,7 +2,8 @@ import React from "react";
 import BlogPostCard from "./PostBlogCard";
 import BlogPage from "./PostBlogPage";
 import Sidebar from "../blogSidebar/SideBar";
-import { Container, Column } from '../../themeLayout';
+import Column from '../../themeLayout/ColumnLayout';
+import Container from '../../themeLayout/ContainerLayout';
 
 const postBlog = () => {
   return (
