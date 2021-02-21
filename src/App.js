@@ -4,6 +4,7 @@ import Home from './containers/Home/HomeContainer';
 import Category from './containers/Category/CategoryContainer';
 import Blog from './containers/Blog/BlogContainer';
 import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
+import Login from './containers/Login/Login';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/cat-page" component={Category} />
           <Route exact path="/blog" component = {Blog} />
+          <Route exact path="/login" component = {Login}/>
         </Switch>
       </DefaultLayout>
     </ BrowserRouter>

@@ -524,19 +524,6 @@ const SideBar = () => {
           </div>
         </div>
         <div className="widget">
-          <form className="single-newsletter-inner bg-blue text-center">
-            <h5>Newsletter</h5>
-            <p>Stay Updated on all that's new add noteworthy</p>
-            <div className="single-input-inner">
-              <input type="text" placeholder="Enter Your Name" />
-            </div>
-            <div className="single-input-inner">
-              <input type="text" placeholder="Enter Your Email" />
-            </div>
-            <a className="btn btn-white w-100" href="#">
-              Subscribe Now
-            </a>
-          </form>
         </div>
       </div>
   );
