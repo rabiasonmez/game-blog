@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const CategoryBodyCard = () => {
+const CategoryBodyCard = (props) => {
 
   let publicUrl = process.env.PUBLIC_URL + '/'
   let imagealt = 'image'

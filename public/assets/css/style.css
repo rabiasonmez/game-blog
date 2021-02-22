@@ -2814,6 +2814,7 @@ dl, ol, ul {
 .single-newsletter-inner {
   padding: 22px 25px 30px 25px;
   border-radius: 5px;
+
 }
 
 .single-newsletter-inner p {
@@ -2821,7 +2822,7 @@ dl, ol, ul {
   margin-bottom: 28px;
 }
 
-.single-newsletter-inner.bg-blue h5, .single-newsletter-inner.bg-blue p {
+.single-newsletter-inner.bg-blue h3, .single-newsletter-inner.bg-blue p {
   color: #fff;
 }
 
@@ -2859,6 +2860,37 @@ dl, ol, ul {
   padding: 0 18px;
 }
 
+
+
+.single-newsletter-inner a {
+  color: white;
+  transition: ease .5s;
+}
+
+.single-newsletter-inner a:hover {
+  color: rgb(120, 123, 124);
+  text-decoration: underline;
+}
+
+.single-newsletter-inner span, 
+.single-newsletter-inner span {
+  color: white;
+  cursor: pointer;
+}
+
+.single-newsletter-inner .sign-up p{
+  color: black;
+  font-size: 20px;
+}
+.single-newsletter-inner .sign-up p a{
+  color: #fff;
+  font-weight: bold;
+}
+
+.single-newsletter-inner .sign-up p a:hover{
+  color: rgb(235, 210, 210);
+  cursor: pointer;
+}
 /*---------------------------------------------
 	cs-partner-slider-11
 ----------------------------------------------*/

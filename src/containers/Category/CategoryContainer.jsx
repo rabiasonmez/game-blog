@@ -1,6 +1,6 @@
 import React from 'react';
 import Breadcrumb from './../../components/themeLayout/Breadcrumb'
-import CategoryList from './CategoryList'
+import CategoryList from '../../components/categoryLayout/CategoryList'
 const CategoryContainer = (props) => {
 
     return (
