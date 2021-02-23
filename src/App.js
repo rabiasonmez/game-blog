@@ -5,6 +5,9 @@ import Category from './containers/Category/CategoryContainer';
 import Blog from './containers/Blog/BlogContainer';
 import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
 import Login from './containers/Login/Login';
+import BlogDetail from './containers/Blog/BlogDetail';
+import PostDetail from './components/postLayout/PostDetail';
+import Error from './containers/Error/Error';
 
 function App() {
   return (
@@ -15,6 +18,8 @@ function App() {
           <Route exact path="/cat-page" component={Category} />
           <Route exact path="/blog" component = {Blog} />
           <Route exact path="/login" component = {Login}/>
+          <Route exact path="/blog-details" component = {PostDetail}/>
+          <Route exact path="/error" component = {Error}/>
         </Switch>
       </DefaultLayout>
     </ BrowserRouter>
