@@ -21,8 +21,8 @@ const BlogTheme370x270 = (props) => {
                 {data.date}
               </li>
               <li>
-                <i className="fa fa-user" />
-                {data.author}
+                <Link to={'author-' + data.author_slug}> <i className="fa fa-user" />
+                  {data.author}</Link>
               </li>
             </ul>
           </div>

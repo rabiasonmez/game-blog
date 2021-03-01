@@ -16,7 +16,7 @@ const BlogDetail = (props) => {
     console.log(data.comment);
     return (
         <>
-            <Breadcrumb data={[{ slug: dataBlog.category_slug, title: dataBlog.category }, { slug: dataBlog.slug, title: dataBlog.title }]} title={dataBlog.title} />
+            <Breadcrumb data={[{ slug: 'cat-' + dataBlog.category_slug, title: dataBlog.category }, { slug: dataBlog.slug, title: dataBlog.title }]} title={dataBlog.title} />
             <Container>
                 <div className="col-lg-9 pd-top-50 mb-5">
                     <BlogTheme1170x600 data={dataBlog} />

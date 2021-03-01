@@ -15,7 +15,7 @@ const BlogTheme1170x600 = (props) => {
             <ul>
               <li><Link className="tag-base tag-blue" to={data.category_slug}>{data.category}</Link></li>
               <li><p><i className="fa fa-clock-o" />{data.date}</p></li>
-              <li><i className="fa fa-user" />{data.author}</li>
+              <li><Link to={'author-' + data.author_slug}><i className="fa fa-user" />{data.author}</Link></li>
             </ul>
           </div>
           <h5 className="title mt-0">{data.title}</h5>

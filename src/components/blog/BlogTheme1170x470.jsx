@@ -12,8 +12,8 @@ const BlogTheme1170x470 = (props) => {
       <div className="single-blog-details">
         <div className="meta">
           <span className="author">
-            <i className="fa fa-user" />
-            {data.author}
+            <Link to={'author-' + data.author_slug}><i className="fa fa-user" />
+              {data.author}</Link>
           </span>
           <span className="date">
             <i className="fa fa-calendar" />
@@ -32,7 +32,7 @@ const BlogTheme1170x470 = (props) => {
         <p>
           {data.excerpt}
         </p>
-          <Link to={'/blog-' + data.slug}>
+        <Link to={'/blog-' + data.slug}>
           Learn More
         </Link>
       </div>

@@ -13,7 +13,7 @@ const Breadcrumb = (props) => {
                             <ul className="page-list">
                                 <li><Link to="/">Ana Sayfa</Link></li>
                                 {data && data.map((item, index) => (
-                                    (index < (item.length - 2)) ?
+                                    (index !== (data.length-1)) ?
                                         <li><Link to={item.slug}>{item.title}</Link></li>
                                         :
                                         <li>{item.title}</li>

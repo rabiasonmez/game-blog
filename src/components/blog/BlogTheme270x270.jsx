@@ -26,18 +26,18 @@ const BlogTheme270x270 = (props) => {
               </h6>
               <div className="post-meta-single pt-2 pb-2">
                 <ul>
-                  <li>by {data.author}</li>
-                  <li>{data.date}</li>
+                  <li>by <Link to={'author-' + data.author_slug}>{data.author}</Link></li>
+                <li>{data.date}</li>
                 </ul>
-              </div>
-              <p>
-                {data.excerpt}
-              </p>
             </div>
+            <p>
+              {data.excerpt}
+            </p>
           </div>
         </div>
+        </div>
       </Link>
-    </div>
+    </div >
   );
 };
 

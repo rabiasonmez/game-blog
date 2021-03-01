@@ -12,10 +12,12 @@ const Category = (props) => {
     const categoryBlogs = data.blog.filter((item) => item.category_slug == params.categorySlug);
     return (
         <>
-            <Breadcrumb data={[{ slug: dataCategory.slug, title: dataCategory.name }]} title={dataCategory.name} />
+            <Breadcrumb data={[{ slug: 'cat-' + dataCategory.slug, title: dataCategory.name }]} title={dataCategory.name} />
             <Container>
                 <div className="col-lg-9 pd-top-50">
-                    <CategoryList data={categoryBlogs} />
+                    <div className="row">
+                        <CategoryList data={categoryBlogs} />
+                    </div>
                 </div>
                 <div className="col-lg-3 pd-top-50">
                     <CategorySideBar />
