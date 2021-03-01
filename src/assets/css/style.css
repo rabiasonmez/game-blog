@@ -3564,9 +3564,12 @@ dl, ol, ul {
   width: 100px;
   height: 85px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .img-div-100x80 img {
   height: 100%;
   width: auto !important;
+  max-width:fit-content !important;
 }
