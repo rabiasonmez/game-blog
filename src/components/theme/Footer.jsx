@@ -98,7 +98,7 @@ const Footer = (props) => {
                         <li><Link to="/cat-page">Tech News</Link></li>
                         <li><Link to="/cat-fashion">Fashion</Link></li>
                     </ul> */}
-                    <p>Copyright ©2020 Nextpage</p>
+                    <p>Copyright ©2020 GamersCo</p>
                 </div>
             </div>
         </div>
