@@ -7,7 +7,7 @@ const BlogTheme100x85 = (props) => {
   return (
     <div className={classNameDiv}>
       <div className="media">
-        <div className="media-left">
+        <div className="media-left img-div-100x80">
           <img src={BLOG_IMG_URL + data.img_path} alt={data.title} width="100px" />
         </div>
         <div className="media-body">

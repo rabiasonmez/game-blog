@@ -3559,3 +3559,14 @@ dl, ol, ul {
 .max-600 {
   max-height: 600px;
 }
+
+.img-div-100x80 {
+  width: 100px;
+  height: 85px;
+  overflow: hidden;
+}
+
+.img-div-100x80 img {
+  height: 100%;
+  width: auto !important;
+}
