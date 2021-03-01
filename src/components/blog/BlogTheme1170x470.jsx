@@ -1,0 +1,43 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import { BLOG_IMG_URL } from "../../data/apiUrl";
+
+const BlogTheme1170x470 = (props) => {
+  const { data } = props;
+  return (
+    <div className="single-blog-inner">
+      <div className="thumb">
+        <img src={BLOG_IMG_URL + data.img_path} alt={data.title} />
+      </div>
+      <div className="single-blog-details">
+        <div className="meta">
+          <span className="author">
+            <i className="fa fa-user" />
+            {data.author}
+          </span>
+          <span className="date">
+            <i className="fa fa-calendar" />
+            {data.date}
+          </span>
+          <span className="comments">
+            <i className="fa fa-comments" />
+            Comments ({data.comment_count})
+          </span>
+        </div>
+        <h3>
+          <Link to={`/${data.slug}`}>
+            {data.title}
+          </Link>
+        </h3>
+        <p>
+          {data.excerpt}
+        </p>
+        <Link to={`/${data.slug}`}>
+          Learn More
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default BlogTheme1170x470;

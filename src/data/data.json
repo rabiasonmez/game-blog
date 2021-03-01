@@ -1,0 +1,294 @@
+{
+    "blog": [
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here-our-take",
+            "img_path": "assets/img/video/2.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        },
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/video/3.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        },
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/video/4.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        },
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/video/5.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        }
+    ],
+    "blog2": [
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/post/5.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        },
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/post/6.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        },
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/post/7.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        }
+    ],
+    "blog3": [
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/post/list/5.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        },
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/post/list/4.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        },
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/post/list/3.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        }
+        ,
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/post/list/2.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        }
+        ,
+        {
+            "id": 1,
+            "title": "Here’s our take on the latest technology",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/post/list/1.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        }
+    ],
+    "blog4": [
+        {
+            "id": 1,
+            "title": "Uttarakhand’s Hemkund Sahib yatra to start from September 4",
+            "excerpt": "Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+            "content": "uzun yazı",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/post/8.png",
+            "date": "june 25,2020",
+            "category": "Movies",
+            "category_slug":"movies",
+            "author": "IJM NH ",
+            "author_slug":"ijm_nh",
+            "comment_count":4
+        }
+    ],
+    "category": [
+        {
+            "id": 1,
+            "name": "LOL",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/category/9.png",
+            "date": "june 25,2020",
+            "category": "Movies"
+        }, {
+            "id": 1,
+            "name": "PUBG",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/category/9.png",
+            "date": "june 25,2020",
+            "category": "Movies"
+        }, {
+            "id": 1,
+            "name": "FORNITE",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/category/9.png",
+            "date": "june 25,2020",
+            "category": "Movies"
+        }, {
+            "id": 1,
+            "name": "GTA",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/category/9.png",
+            "date": "june 25,2020",
+            "category": "Movies"
+        }, {
+            "id": 1,
+            "name": "SIMS",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/category/9.png",
+            "date": "june 25,2020",
+            "category": "Movies"
+        }, {
+            "id": 1,
+            "name": "MINECRAFT",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "slug": "minecraft",
+            "img_path": "assets/img/category/9.png",
+            "date": "june 25,2020",
+            "category": "Movies"
+        }, {
+            "id": 1,
+            "name": "VALORANT",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "slug": "valorant",
+            "img_path": "assets/img/category/9.png",
+            "date": "june 25,2020",
+            "category": "Movies"
+        }, {
+            "id": 1,
+            "name": "FIFA",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/category/9.png",
+            "date": "june 25,2020",
+            "category": "Movies"
+        }, {
+            "id": 1,
+            "name": "PES",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/category/9.png",
+            "date": "june 25,2020",
+            "category": "Movies"
+        }, {
+            "id": 1,
+            "name": "ZULA",
+            "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "slug": "here_our_take_on",
+            "img_path": "assets/img/category/9.png",
+            "date": "june 25,2020",
+            "category": "Movies"
+        }
+    ],
+    "tag": [
+        {
+            "id": 1,
+            "name": "Here’s our take on the latest technology",
+            "slug": "here_our_take_on",
+            "category":"category",
+            "date": "june 25,2020"
+        }
+    ],
+    "comment": [
+        {
+        }
+    ],
+    "user": [
+        {
+        }
+    ]
+}
