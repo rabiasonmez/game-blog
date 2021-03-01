@@ -21,8 +21,8 @@
         // mobile menu
         if ($(window).width() < 992) {
             $(".in-mobile").clone().appendTo(".sidebar-inner");
-            $(".in-mobile ul li.menu-item-has-children").append('<i class="fas fa-chevron-right"></i>');
-            $('<i class="fas fa-chevron-right"></i>').insertAfter("");
+            $(".in-mobile ul li.menu-item-has-children").append('<i className="fas fa-chevron-right"></i>');
+            $('<i className="fas fa-chevron-right"></i>').insertAfter("");
 
             $(".menu-item-has-children a").on('click', function(e) {
                 // e.preventDefault();
@@ -55,8 +55,8 @@
         /* -----------------------------------------------------
             Variables
         ----------------------------------------------------- */
-        var leftArrow = '<i class="la la-angle-left"></i>';
-        var rightArrow = '<i class="la la-angle-right"></i>';
+        var leftArrow = '<i className="la la-angle-left"></i>';
+        var rightArrow = '<i className="la la-angle-right"></i>';
 
         
         /* -------------------------------------------------

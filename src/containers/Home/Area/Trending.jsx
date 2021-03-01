@@ -8,21 +8,21 @@ import data from '../../../data/data.json'
 
 const Banner = (props) => {
     return (
-        <div class="pd-top-80  pd-bottom-50">
+        <div className="pd-top-80  pd-bottom-50">
             <Container>
-                <div class="col-lg-3 col-md-6">
-                    <div class="section-title">
-                        <h6 class="title">Trending Blog </h6>
+                <div className="col-lg-3 col-md-6">
+                    <div className="section-title">
+                        <h6 className="title">Trending Blog </h6>
                     </div>
-                    <div class="trending-post">
+                    <div className="trending-post">
                         {data.blog2.map(item => (
                             <BlogTheme370x150 data={item} />
                         ))}
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="section-title">
-                        <h6 class="title">Latest Blog</h6>
+                <div className="col-lg-3 col-md-6">
+                    <div className="section-title">
+                        <h6 className="title">Latest Blog</h6>
                     </div>
                     <div>
                         {data.blog3.map(item => (
@@ -30,9 +30,9 @@ const Banner = (props) => {
                         ))}
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="section-title">
-                        <h6 class="title">Whats Blog</h6>
+                <div className="col-lg-3 col-md-6">
+                    <div className="section-title">
+                        <h6 className="title">Whats Blog</h6>
                     </div>
                     <div>
                         {data.blog4.map(item => (
@@ -40,9 +40,9 @@ const Banner = (props) => {
                         ))}
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="section-title">
-                        <h6 class="title">Category</h6>
+                <div className="col-lg-3 col-md-6">
+                    <div className="section-title">
+                        <h6 className="title">Category</h6>
                     </div>
                     <div className={"row"}>
                         {data.category.map(item => (

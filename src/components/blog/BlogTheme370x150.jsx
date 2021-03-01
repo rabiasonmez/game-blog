@@ -7,7 +7,7 @@ const BlogTheme370x150 = (props) => {
   return (
     <div className="single-post-wrap style-overlay">
       <div className="thumb">
-        <img src={BLOG_IMG_URL + data.img_path} alt={data.title} />
+        <img src={BLOG_IMG_URL + data.img_path} alt={data.title}  width="370px" />
       </div>
       <div className="details">
         <div className="post-meta-single">

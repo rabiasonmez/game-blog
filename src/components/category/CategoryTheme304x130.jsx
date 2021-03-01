@@ -8,7 +8,7 @@ const CategoryTheme304x130 = (props) => {
     <div className={className}>
       <div className="single-category-inner">
         <img src={CATEGORY_IMG_URL + data.img_path} alt={data.title} />
-        <Link className="tag-base tag-blue" to={data.slug}>{data.name}</Link>
+        <Link className="tag-base tag-blue" to={'cat-'+data.slug}>{data.name}</Link>
       </div>
     </div>
   );

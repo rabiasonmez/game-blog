@@ -8,7 +8,7 @@ const BlogTheme370x270 = (props) => {
     <div className={className}>
       <div className="single-post-wrap">
         <div className="thumb">
-          <img src={BLOG_IMG_URL + data.img_path} alt={data.title} />
+          <img src={BLOG_IMG_URL + data.img_path} alt={data.title} width="370px" />
           <Link className="tag-base tag-red" to={`/${data.category_slug}`}>
             {data.category}
           </Link>
@@ -27,7 +27,7 @@ const BlogTheme370x270 = (props) => {
             </ul>
           </div>
           <h6 className="title mt-2">
-            <Link to={`/${data.slug}`}>{data.title}</Link>
+            <Link to={'/blog-' + data.slug}>{data.title}</Link>
           </h6>
           <p>{data.excerpt}</p>
         </div>

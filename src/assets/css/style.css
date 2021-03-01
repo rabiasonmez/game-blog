@@ -907,12 +907,20 @@ dl, ol, ul {
   background: #d42428;
 }
 
+.social-area-2 li a.google-icon {
+  background: #dc4e41
+}
+
 .social-area-2 li a.linkedin-icon {
   background: #3b5998;
 }
 
 .social-area-2 li a.github-icon {
   background: #0b7c8b;
+}
+
+.social-area-2 li a.instagram-icon {
+  background: #6c27b3
 }
 
 .social-area-list ul {
@@ -1164,6 +1172,7 @@ dl, ol, ul {
 /*----------------------------------------
   ## Search
 ----------------------------------------*/
+
 .search-form .form-group .form-control {
   border: 1px solid #efefef;
   border-top-right-radius: 6px;
@@ -1583,7 +1592,6 @@ dl, ol, ul {
 }
 
 .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
-
   font-weight: 400;
   font-size: 15px;
   text-transform: uppercase;
@@ -2787,7 +2795,6 @@ dl, ol, ul {
 .single-newsletter-inner {
   padding: 22px 25px 30px 25px;
   border-radius: 5px;
-
 }
 
 .single-newsletter-inner p {
@@ -2833,8 +2840,6 @@ dl, ol, ul {
   padding: 0 18px;
 }
 
-
-
 .single-newsletter-inner a {
   color: white;
   transition: ease .5s;
@@ -2845,25 +2850,26 @@ dl, ol, ul {
   text-decoration: underline;
 }
 
-.single-newsletter-inner span, 
-.single-newsletter-inner span {
+.single-newsletter-inner span, .single-newsletter-inner span {
   color: white;
   cursor: pointer;
 }
 
-.single-newsletter-inner .sign-up p{
+.single-newsletter-inner .sign-up p {
   color: black;
   font-size: 18px;
 }
-.single-newsletter-inner .sign-up p a{
+
+.single-newsletter-inner .sign-up p a {
   color: #fff;
   font-weight: bold;
 }
 
-.single-newsletter-inner .sign-up p a:hover{
+.single-newsletter-inner .sign-up p a:hover {
   color: rgb(235, 210, 210);
   cursor: pointer;
 }
+
 /*---------------------------------------------
 	cs-partner-slider-11
 ----------------------------------------------*/
@@ -3548,4 +3554,8 @@ dl, ol, ul {
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 0;
   margin-top: 5px;
+}
+
+.max-600 {
+  max-height: 600px;
 }

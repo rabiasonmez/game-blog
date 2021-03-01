@@ -7,9 +7,11 @@ const BlogTheme270x200 = (props) => {
   return (
     <div className={className}>
       <div className="single-post-list-wrap style-two style-white text-left">
-        <div className="media">
-          <div className="media-left">
-            <img src={BLOG_IMG_URL + data.img_path} alt={data.title} />
+
+        <Link to={'/blog-' + data.slug}>
+          <div className="media">
+            <div className="media-left">
+              <img src={BLOG_IMG_URL + data.img_path} alt={data.title} width="270px" />
             </div>
             <div className="media-body align-self-center">
               <div className="details">
@@ -23,6 +25,7 @@ const BlogTheme270x200 = (props) => {
               </div>
             </div>
           </div>
+        </Link>
       </div>
     </div>
   );

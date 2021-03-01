@@ -7,7 +7,7 @@ const BlogShare = (props) => {
     return (
         <div className={className}>
             <div className="blog-share">
-                <span>Share:</span>
+                <span><strong>Share: </strong></span>
                 <ul className="social-area social-area-2 d-inline">
                     <li><a className="facebook-icon" href="#"><i className="fa fa-facebook" /></a></li>
                     <li><a className="twitter-icon" href="#"><i className="fa fa-twitter" /></a></li>

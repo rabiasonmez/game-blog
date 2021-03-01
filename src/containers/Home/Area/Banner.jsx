@@ -6,10 +6,10 @@ import data from '../../../data/data.json'
 
 const Banner = (props) => {
     return (
-        <div class="newsletter-area bg-black pd-top-80  pd-bottom-50">
+        <div className="newsletter-area bg-black pd-top-80  pd-bottom-50">
             <Container>
-                <div class="col-xl-9 col-lg-8">
-                    <div class="row">
+                <div className="col-xl-9 col-lg-8">
+                    <div className="row">
                         {data.blog.map(item => (
                             <BlogTheme270x200 data={item} className={"col-xl-6 col-lg-12"} />
                         ))}

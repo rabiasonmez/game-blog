@@ -7,11 +7,11 @@ const CommentUserCard = (props) => {
     const classNameMedia = "media " + className;
     return (
         <div className={classNameMedia}>
-            <Link to={data.author_slug}>
+            <Link to={'/author-'+data.author_slug}>
                 <img src={COMMENT_IMG_URL + data.img_path} alt={data.author} />
             </Link>
             <div className="media-body">
-                <h5><Link to={data.author_slug}>{data.author}</Link></h5>
+                <h5><Link to={'/author-'+data.author_slug}>{data.author}</Link></h5>
                 <span className="date">{data.date}</span>
                 <p>{data.comment}</p>
                 <a href="#">Reply <i className="la la-arrow-right" /></a>

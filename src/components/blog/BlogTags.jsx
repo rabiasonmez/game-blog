@@ -6,9 +6,9 @@ const BlogTags = (props) => {
     return (
         <div className={className}>
             <div className="tags">
-                <span>Tags:</span>
-                {data.category.map(item => (
-                    <Link to={item.slug}>{item.name}</Link>
+                <span><strong>Tags: </strong></span>
+                {data.map(item => (
+                    <Link to={item.slug} className={"text-capitalize"}>{item.name}, </Link>
                 ))}
             </div>
         </div>

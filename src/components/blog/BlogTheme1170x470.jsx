@@ -7,7 +7,7 @@ const BlogTheme1170x470 = (props) => {
   return (
     <div className="single-blog-inner">
       <div className="thumb">
-        <img src={BLOG_IMG_URL + data.img_path} alt={data.title} />
+        <img src={BLOG_IMG_URL + data.img_path} alt={data.title} width="1170px" />
       </div>
       <div className="single-blog-details">
         <div className="meta">
@@ -25,14 +25,14 @@ const BlogTheme1170x470 = (props) => {
           </span>
         </div>
         <h3>
-          <Link to={`/${data.slug}`}>
+          <Link to={'/blog-' + data.slug}>
             {data.title}
           </Link>
         </h3>
         <p>
           {data.excerpt}
         </p>
-        <Link to={`/${data.slug}`}>
+          <Link to={'/blog-' + data.slug}>
           Learn More
         </Link>
       </div>

@@ -9,7 +9,7 @@
             "img_path": "assets/img/video/2.png",
             "date": "june 25,2020",
             "category": "Movies",
-            "category_slug":"movies",
+            "category_slug":"lol",
             "author": "IJM NH ",
             "author_slug":"ijm_nh",
             "comment_count":4
@@ -184,8 +184,8 @@
             "slug": "here_our_take_on",
             "img_path": "assets/img/post/8.png",
             "date": "june 25,2020",
-            "category": "Movies",
-            "category_slug":"movies",
+            "category": "LoL",
+            "category_slug":"lol",
             "author": "IJM NH ",
             "author_slug":"ijm_nh",
             "comment_count":4
@@ -196,82 +196,72 @@
             "id": 1,
             "name": "LOL",
             "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
-            "slug": "here_our_take_on",
+            "slug": "lol",
             "img_path": "assets/img/category/9.png",
-            "date": "june 25,2020",
-            "category": "Movies"
+            "date": "june 25,2020"
         }, {
             "id": 1,
             "name": "PUBG",
             "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
-            "slug": "here_our_take_on",
+            "slug": "pubg",
             "img_path": "assets/img/category/9.png",
-            "date": "june 25,2020",
-            "category": "Movies"
+            "date": "june 25,2020"
         }, {
             "id": 1,
             "name": "FORNITE",
             "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
-            "slug": "here_our_take_on",
+            "slug": "fortinate",
             "img_path": "assets/img/category/9.png",
-            "date": "june 25,2020",
-            "category": "Movies"
+            "date": "june 25,2020"
         }, {
             "id": 1,
             "name": "GTA",
             "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
-            "slug": "here_our_take_on",
+            "slug": "gta",
             "img_path": "assets/img/category/9.png",
-            "date": "june 25,2020",
-            "category": "Movies"
+            "date": "june 25,2020"
         }, {
             "id": 1,
             "name": "SIMS",
             "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
-            "slug": "here_our_take_on",
+            "slug": "sims",
             "img_path": "assets/img/category/9.png",
-            "date": "june 25,2020",
-            "category": "Movies"
+            "date": "june 25,2020"
         }, {
             "id": 1,
             "name": "MINECRAFT",
             "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
             "slug": "minecraft",
             "img_path": "assets/img/category/9.png",
-            "date": "june 25,2020",
-            "category": "Movies"
+            "date": "june 25,2020"
         }, {
             "id": 1,
             "name": "VALORANT",
             "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
             "slug": "valorant",
             "img_path": "assets/img/category/9.png",
-            "date": "june 25,2020",
-            "category": "Movies"
+            "date": "june 25,2020"
         }, {
             "id": 1,
             "name": "FIFA",
             "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
-            "slug": "here_our_take_on",
+            "slug": "fifa",
             "img_path": "assets/img/category/9.png",
-            "date": "june 25,2020",
-            "category": "Movies"
+            "date": "june 25,2020"
         }, {
             "id": 1,
             "name": "PES",
             "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
-            "slug": "here_our_take_on",
+            "slug": "pes",
             "img_path": "assets/img/category/9.png",
-            "date": "june 25,2020",
-            "category": "Movies"
+            "date": "june 25,2020"
         }, {
             "id": 1,
             "name": "ZULA",
             "excerpt": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
-            "slug": "here_our_take_on",
+            "slug": "zula",
             "img_path": "assets/img/category/9.png",
-            "date": "june 25,2020",
-            "category": "Movies"
+            "date": "june 25,2020"
         }
     ],
     "tag": [
@@ -285,6 +275,26 @@
     ],
     "comment": [
         {
+            "author_slug":"laim_satah",
+            "author":"Laim Satah",
+            "comment":"Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "date":"june 25,2020",
+            "img_path":"assets/img/author/2.png"
+        },
+        {
+            "author_slug":"ali_yildiz",
+            "author":"Ali Yıldız",
+            "comment":"Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "date":"june 26,2020",
+            "img_path":"assets/img/author/3.png",
+            "comment_id":2
+        },
+        {
+            "author_slug":"micheal_antonio",
+            "author":"Micheal Antonio",
+            "comment":"Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit    dolor sit amet, consectetur adipisicing elit eiusmod tempor",
+            "date":"june 27,2020",
+            "img_path":"assets/img/author/2.png"
         }
     ],
     "user": [

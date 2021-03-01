@@ -12,7 +12,7 @@ const Contact = (props) => {
                     <div className="section-title mt-5">
                         <h4 className="mb-0">Contact Information</h4>
                     </div>
-                    <ul class="contact_info_list">
+                    <ul className="contact_info_list">
                         <li className={"mb-3"}><h3>Rabia Sönmez</h3>
                             <i className="fa fa-envelope-o mr-2"></i>
                             rabiasonmz@gmail.com

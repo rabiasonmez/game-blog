@@ -61,7 +61,7 @@ const Header = (props) => {
                 <Link to="#">Category</Link>
                 <ul className="sub-menu">
                   {data.category.map((item) => (
-                    <li><Link to={item.slug}>{item.name}</Link></li>
+                    <li><Link to={'cat-'+item.slug}>{item.name}</Link></li>
                   ))}
                 </ul>
               </li>
@@ -74,11 +74,11 @@ const Header = (props) => {
             </ul>
           </div>
           <div className="nav-right-part nav-right-part-desktop position-relative">
-            <form action="" class="search-form">
-              <div class="form-group mb-0">
-                <input class="form-control" placeholder="Search....." />
+            <form action="" className="search-form">
+              <div className="form-group mb-0">
+                <input className="form-control" placeholder="Search....." />
               </div>
-              <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+              <button type="submit" className="submit-btn"><i className="fa fa-search"></i></button>
             </form>
           </div>
         </div>

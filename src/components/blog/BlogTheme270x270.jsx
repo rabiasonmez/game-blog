@@ -5,10 +5,10 @@ const BlogTheme270x270 = (props) => {
   const { data } = props;
   return (
     <div className="single-post-list-wrap style-two text-left">
-      <Link to={`/${data.slug}`}>
+      <Link to={'/blog-' + data.slug}>
         <div className="media">
           <div className="media-left">
-            <img src={BLOG_IMG_URL + data.img_path} alt={data.title} />
+            <img src={BLOG_IMG_URL + data.img_path} alt={data.title} width="270px" />
           </div>
           <div className="media-body align-self-center">
             <div className="details">
