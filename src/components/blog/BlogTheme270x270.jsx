@@ -15,7 +15,7 @@ const BlogTheme270x270 = (props) => {
               <div className="post-meta-single">
                 <ul>
                   <li>
-                    <Link to={`/${data.category_slug}`} className="tag-base tag-blue">
+                    <Link to={`/cat-${data.category_slug}`} className="tag-base tag-blue">
                       {data.category}
                     </Link>
                   </li>

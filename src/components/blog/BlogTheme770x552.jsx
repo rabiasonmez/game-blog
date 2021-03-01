@@ -7,7 +7,7 @@ const BlogTheme770x552 = (props) => {
     <div className="single-post-wrap style-overlay">
       <div className="thumb">
         <img src={BLOG_IMG_URL + data.img_path} alt={data.title}  width="770px" />
-        <Link className="tag-base tag-blue" to={`/${data.category_slug}`}>{data.category}</Link>
+        <Link className="tag-base tag-blue" to={`/cat-${data.category_slug}`}>{data.category}</Link>
       </div>
       <div className="details">
         <div className="post-meta-single">

@@ -13,7 +13,7 @@ const BlogTheme1170x600 = (props) => {
         <div className="details pb-4">
           <div className="post-meta-single mb-2">
             <ul>
-              <li><Link className="tag-base tag-blue" to={data.category_slug}>{data.category}</Link></li>
+              <li><Link className="tag-base tag-blue" to={'/cat-'+data.category_slug}>{data.category}</Link></li>
               <li><p><i className="fa fa-clock-o" />{data.date}</p></li>
               <li><Link to={'author-' + data.author_slug}><i className="fa fa-user" />{data.author}</Link></li>
             </ul>
